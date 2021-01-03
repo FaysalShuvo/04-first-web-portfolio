@@ -13,6 +13,9 @@ p {
   font-size: 70px;
   font-weight: 900;
 }
+.name-highlight01 {
+  color: rgb(3, 192, 192);
+}
 .half-width {
   width: 40%;
   float: left;
@@ -72,4 +75,32 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.single-Xp {
+  box-shadow: 10px 10px 40px gray;
+  height: 70%;
+  border-radius: 5px;
+  margin-left: 50px;
+  background-color: white;
+}
+.Xp {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: whitesmoke;
+}
+#Director {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(0, 183, 255), rgb(255, 0, 140));
+  border-image-slice: 1;
+}
+#BabyWeb {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(0, 183, 255), rgb(251, 255, 0));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  font-size: small;
+  color: gray;
 }
